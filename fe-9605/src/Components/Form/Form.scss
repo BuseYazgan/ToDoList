@@ -1,0 +1,38 @@
+*{
+    font-family: "Lucida Console", "Courier New", monospace
+}
+
+ul {
+    text-align: right; 
+    list-style-position: inside;
+    border: 2px solid #6c6d6e;
+    padding:120px;
+    border-radius: 15px; 
+    margin-left: 150px;
+    width: 500px;
+    height:500px;
+    overflow: scroll;
+    display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  padding: 0;
+  list-style: none;
+
+    li {
+        cursor: pointer;
+        list-style-type: circle;
+    }
+  }
+
+.divStyle{
+    padding-left:150px;
+}
+
+.inputStyle{
+    width:250px;
+}
+
+.formStyle{
+ padding:120px;
+ border-radius: 15px; 
+}
